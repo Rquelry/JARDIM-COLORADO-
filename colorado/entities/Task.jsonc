@@ -1,0 +1,37 @@
+{
+  "name": "Task",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "title": "Tarefa"
+    },
+    "assigned_to": {
+      "type": "string",
+      "title": "Respons\u00e1vel"
+    },
+    "due_date": {
+      "type": "string",
+      "format": "date",
+      "title": "Data Limite"
+    },
+    "status": {
+      "type": "string",
+      "title": "Status",
+      "enum": [
+        "pendente",
+        "feito"
+      ],
+      "default": "pendente"
+    },
+    "notes": {
+      "type": "string",
+      "title": "Observa\u00e7\u00f5es"
+    }
+  },
+  "required": [
+    "title",
+    "due_date",
+    "status"
+  ]
+}

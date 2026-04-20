@@ -1,0 +1,22 @@
+{
+  "name": "Student",
+  "type": "object",
+  "properties": {
+    "card_code": {
+      "type": "string",
+      "title": "C\u00f3digo da Carteirinha"
+    },
+    "name": {
+      "type": "string",
+      "title": "Nome do Aluno"
+    },
+    "grade": {
+      "type": "string",
+      "title": "Turma"
+    }
+  },
+  "required": [
+    "name",
+    "grade"
+  ]
+}

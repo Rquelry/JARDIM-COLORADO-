@@ -1,0 +1,52 @@
+{
+  "name": "ServiceCall",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "title": "T\u00edtulo do Chamado"
+    },
+    "category": {
+      "type": "string",
+      "title": "Categoria",
+      "enum": [
+        "Troca de Tonner",
+        "Manuten\u00e7\u00e3o",
+        "Reparo",
+        "Outro"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "title": "Descri\u00e7\u00e3o / Observa\u00e7\u00f5es"
+    },
+    "photo_url": {
+      "type": "string",
+      "title": "Foto"
+    },
+    "equipment_id": {
+      "type": "string",
+      "title": "Identifica\u00e7\u00e3o do Equipamento"
+    },
+    "status": {
+      "type": "string",
+      "title": "Status",
+      "enum": [
+        "aberto",
+        "em_andamento",
+        "resolvido"
+      ],
+      "default": "aberto"
+    },
+    "resolved_at": {
+      "type": "string",
+      "format": "date-time",
+      "title": "Resolvido em"
+    }
+  },
+  "required": [
+    "title",
+    "category",
+    "status"
+  ]
+}

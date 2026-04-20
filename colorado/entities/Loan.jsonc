@@ -1,0 +1,93 @@
+{
+  "name": "Loan",
+  "type": "object",
+  "properties": {
+    "borrower_type": {
+      "type": "string",
+      "title": "Tipo de Tomador",
+      "enum": [
+        "aluno",
+        "professor"
+      ],
+      "default": "aluno"
+    },
+    "student_name": {
+      "type": "string",
+      "title": "Nome"
+    },
+    "grade": {
+      "type": "string",
+      "title": "S\u00e9rie/Turma",
+      "enum": [
+        "1\u00ba Ano A",
+        "1\u00ba Ano B",
+        "1\u00ba Ano C",
+        "2\u00ba Ano A",
+        "2\u00ba Ano B",
+        "2\u00ba Ano C",
+        "3\u00ba Ano A",
+        "3\u00ba Ano B",
+        "3\u00ba Ano C",
+        "6\u00ba Ano A",
+        "6\u00ba Ano B",
+        "7\u00ba Ano A",
+        "7\u00ba Ano B",
+        "8\u00ba Ano A",
+        "8\u00ba Ano B",
+        "9\u00ba Ano A",
+        "9\u00ba Ano B"
+      ]
+    },
+    "institution": {
+      "type": "string",
+      "title": "Institui\u00e7\u00e3o",
+      "enum": [
+        "SEDUC",
+        "SESI"
+      ]
+    },
+    "equipment_type": {
+      "type": "string",
+      "title": "Tipo de Equipamento",
+      "enum": [
+        "Notebook",
+        "Carregador",
+        "Cabo HDMI"
+      ]
+    },
+    "equipment_id": {
+      "type": "string",
+      "title": "Identifica\u00e7\u00e3o do Equipamento"
+    },
+    "checkout_time": {
+      "type": "string",
+      "format": "date-time",
+      "title": "Hor\u00e1rio de Retirada"
+    },
+    "return_time": {
+      "type": "string",
+      "format": "date-time",
+      "title": "Hor\u00e1rio de Devolu\u00e7\u00e3o"
+    },
+    "status": {
+      "type": "string",
+      "title": "Status",
+      "enum": [
+        "emprestado",
+        "devolvido"
+      ],
+      "default": "emprestado"
+    },
+    "notes": {
+      "type": "string",
+      "title": "Observa\u00e7\u00f5es"
+    }
+  },
+  "required": [
+    "student_name",
+    "equipment_type",
+    "checkout_time",
+    "status",
+    "borrower_type"
+  ]
+}

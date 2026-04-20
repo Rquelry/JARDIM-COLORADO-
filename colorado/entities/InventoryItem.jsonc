@@ -1,0 +1,64 @@
+{
+  "name": "InventoryItem",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "title": "Nome do Equipamento"
+    },
+    "category": {
+      "type": "string",
+      "title": "Categoria",
+      "enum": [
+        "Notebook",
+        "Fonte/Carregador",
+        "Cabo de Rede",
+        "Cabo HDMI",
+        "Outro"
+      ]
+    },
+    "brand": {
+      "type": "string",
+      "title": "Marca"
+    },
+    "serial_number": {
+      "type": "string",
+      "title": "N\u00famero de S\u00e9rie / Patrim\u00f4nio"
+    },
+    "status": {
+      "type": "string",
+      "title": "Status",
+      "enum": [
+        "disponivel",
+        "em_uso",
+        "manutencao",
+        "inativo"
+      ],
+      "default": "disponivel"
+    },
+    "current_user": {
+      "type": "string",
+      "title": "Usu\u00e1rio Atual"
+    },
+    "user_type": {
+      "type": "string",
+      "title": "Tipo de Usu\u00e1rio",
+      "enum": [
+        "aluno",
+        "professor",
+        "estagiario",
+        "jovem_aprendiz",
+        "funcionario"
+      ]
+    },
+    "notes": {
+      "type": "string",
+      "title": "Observa\u00e7\u00f5es"
+    }
+  },
+  "required": [
+    "name",
+    "category",
+    "status"
+  ]
+}
