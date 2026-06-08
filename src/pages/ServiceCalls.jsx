@@ -21,6 +21,8 @@ import {
 import { Wrench, PlusCircle, Loader2, ImagePlus, CheckCircle2, Clock, AlertCircle, X } from "lucide-react";
 import { toast } from "sonner";
 import moment from "moment";
+import CsvImportButton from "@/components/CsvImportButton";
+import { mapServiceCallsCsv } from "@/lib/csv-mappers";
 
 const statusConfig = {
   aberto: { label: "Aberto", color: "text-red-600 bg-red-50", icon: AlertCircle },
@@ -128,10 +130,19 @@ export default function ServiceCalls() {
             {calls.filter(c => c.status !== "resolvido").length} chamado(s) abertos
           </p>
         </div>
-        <Button onClick={() => setShowForm(true)} className="gap-2 rounded-xl h-11 shadow-lg shadow-primary/20">
-          <PlusCircle className="h-4 w-4" />
-          Novo Chamado
-        </Button>
+        <div className="flex flex-col sm:flex-row gap-2">
+          <CsvImportButton
+            label="Importar chamados"
+            transformRows={mapServiceCallsCsv}
+            onImport={(records) => ServiceCallsDB.createMany(records)}
+            onImported={fetchCalls}
+            className="h-11"
+          />
+          <Button onClick={() => setShowForm(true)} className="gap-2 rounded-xl h-11 shadow-lg shadow-primary/20">
+            <PlusCircle className="h-4 w-4" />
+            Novo Chamado
+          </Button>
+        </div>
       </div>
 
       {/* Cards */}

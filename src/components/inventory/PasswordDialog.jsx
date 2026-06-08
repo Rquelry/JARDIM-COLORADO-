@@ -1,6 +1,5 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { PasswordsDB } from "@/lib/db";
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -10,17 +9,24 @@ import { toast } from "sonner";
 
 const emptyForm = { system_name: "", username: "", password: "", url: "", notes: "" };
 
-export default function PasswordDialog({ open, password, onClose, onSaved }) {
+export default function PasswordDialog({ password, onClose, onSaved }) {
   const [form, setForm] = useState(emptyForm);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     setForm(password ? { ...emptyForm, ...password } : emptyForm);
-  }, [password, open]);
+  }, [password]);
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    if (!form.system_name || !form.username || !form.password) { toast.error("Preencha os campos obrigatórios"); return; }
+  const set = (key, value) => setForm((current) => ({ ...current, [key]: value }));
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    if (!form.system_name || !form.username || !form.password) {
+      toast.error("Preencha os campos obrigatorios");
+      return;
+    }
+
     setLoading(true);
     if (password) {
       await PasswordsDB.update(password.id, form);
@@ -34,45 +40,42 @@ export default function PasswordDialog({ open, password, onClose, onSaved }) {
     onClose();
   };
 
-  const set = (k, v) => setForm((f) => ({ ...f, [k]: v }));
-
   return (
-    <Dialog open={open} onOpenChange={onClose}>
-      <DialogContent className="rounded-2xl max-w-md">
-        <DialogHeader>
-          <DialogTitle>{password ? "Editar Senha" : "Nova Senha de Acesso"}</DialogTitle>
-        </DialogHeader>
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4" role="dialog" aria-modal="true">
+      <div className="w-full max-w-md rounded-2xl border border-border bg-background p-6 shadow-xl">
+        <h2 className="text-lg font-semibold mb-4">{password ? "Editar Senha" : "Nova Senha de Acesso"}</h2>
+
         <form onSubmit={handleSubmit} className="space-y-4">
           <div className="space-y-1">
             <Label>Sistema / Aplicativo *</Label>
-            <Input placeholder="Ex: Google Admin, Totvs..." value={form.system_name} onChange={(e) => set("system_name", e.target.value)} className="rounded-xl" />
+            <Input placeholder="Ex: Google Admin, Totvs..." value={form.system_name} onChange={(event) => set("system_name", event.target.value)} className="rounded-xl" />
           </div>
           <div className="grid grid-cols-2 gap-3">
             <div className="space-y-1">
-              <Label>Usuário / Login *</Label>
-              <Input placeholder="usuario@email.com" value={form.username} onChange={(e) => set("username", e.target.value)} className="rounded-xl" />
+              <Label>Usuario / Login *</Label>
+              <Input placeholder="usuario@email.com" value={form.username} onChange={(event) => set("username", event.target.value)} className="rounded-xl" />
             </div>
             <div className="space-y-1">
               <Label>Senha *</Label>
-              <Input type="text" placeholder="••••••••" value={form.password} onChange={(e) => set("password", e.target.value)} className="rounded-xl font-mono" />
+              <Input type="text" placeholder="********" value={form.password} onChange={(event) => set("password", event.target.value)} className="rounded-xl font-mono" />
             </div>
           </div>
           <div className="space-y-1">
-            <Label>URL / Endereço</Label>
-            <Input placeholder="https://..." value={form.url} onChange={(e) => set("url", e.target.value)} className="rounded-xl" />
+            <Label>URL / Endereco</Label>
+            <Input placeholder="https://..." value={form.url} onChange={(event) => set("url", event.target.value)} className="rounded-xl" />
           </div>
           <div className="space-y-1">
-            <Label>Observações</Label>
-            <Textarea placeholder="Notas adicionais..." value={form.notes} onChange={(e) => set("notes", e.target.value)} className="rounded-xl resize-none" rows={2} />
+            <Label>Observacoes</Label>
+            <Textarea placeholder="Notas adicionais..." value={form.notes} onChange={(event) => set("notes", event.target.value)} className="rounded-xl resize-none" rows={2} />
           </div>
           <div className="flex justify-end gap-2 pt-1">
             <Button type="button" variant="outline" onClick={onClose} className="rounded-xl">Cancelar</Button>
             <Button type="submit" disabled={loading} className="rounded-xl">
-              {loading ? <Loader2 className="h-4 w-4 animate-spin" /> : (password ? "Salvar" : "Adicionar")}
+              {loading ? <Loader2 className="h-4 w-4 animate-spin" /> : password ? "Salvar" : "Adicionar"}
             </Button>
           </div>
         </form>
-      </DialogContent>
-    </Dialog>
+      </div>
+    </div>
   );
 }

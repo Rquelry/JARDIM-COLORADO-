@@ -1,0 +1,477 @@
+{
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\.codex\\hooks.json": {
+    "mtime": 1780338639.9211988,
+    "ast_hash": "e8e2f7642cc9a1c90499bfd50ab396b0",
+    "semantic_hash": "e8e2f7642cc9a1c90499bfd50ab396b0"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\components.json": {
+    "mtime": 1780337994.1563187,
+    "ast_hash": "2b244abb0827d4bde148f39e03726576",
+    "semantic_hash": "2b244abb0827d4bde148f39e03726576"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\eslint.config.js": {
+    "mtime": 1780337994.1633177,
+    "ast_hash": "0c967a3df513e2cdcbf51c60cb3e4ce6",
+    "semantic_hash": "0c967a3df513e2cdcbf51c60cb3e4ce6"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\jsconfig.json": {
+    "mtime": 1780337994.1643178,
+    "ast_hash": "b61052eb790e6d98d99b3dd79de7b41f",
+    "semantic_hash": "b61052eb790e6d98d99b3dd79de7b41f"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\package.json": {
+    "mtime": 1780337994.1663167,
+    "ast_hash": "5149a3a029549b05976138ad295c68a3",
+    "semantic_hash": "5149a3a029549b05976138ad295c68a3"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\postcss.config.js": {
+    "mtime": 1780337994.167318,
+    "ast_hash": "5b84f4567208c7c747079c0477373231",
+    "semantic_hash": "5b84f4567208c7c747079c0477373231"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\App.jsx": {
+    "mtime": 1780337994.167318,
+    "ast_hash": "93c3cf700647a0ffe038108e5b82d546",
+    "semantic_hash": "93c3cf700647a0ffe038108e5b82d546"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\api\\base44Client.js": {
+    "mtime": 1780337994.1683178,
+    "ast_hash": "d994f6eb629723b124595c4c11ff31d8",
+    "semantic_hash": "d994f6eb629723b124595c4c11ff31d8"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\api\\coloradoClient.js": {
+    "mtime": 1780337994.1683178,
+    "ast_hash": "9a651d4b92d2e10e2ee45dcc2ddc0b6f",
+    "semantic_hash": "9a651d4b92d2e10e2ee45dcc2ddc0b6f"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ActiveLoanCard.jsx": {
+    "mtime": 1780337994.1693182,
+    "ast_hash": "b8e6cb5b252b5b24dc1312893635b06f",
+    "semantic_hash": "b8e6cb5b252b5b24dc1312893635b06f"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\AddTeacherDialog.jsx": {
+    "mtime": 1780337994.1693182,
+    "ast_hash": "eec3d1f98e496e9e13db9a27f4170ee5",
+    "semantic_hash": "eec3d1f98e496e9e13db9a27f4170ee5"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\InventorySnapshot.jsx": {
+    "mtime": 1780337994.1713164,
+    "ast_hash": "29db972cd35d71013a9d59d8c3e26778",
+    "semantic_hash": "29db972cd35d71013a9d59d8c3e26778"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\Layout.jsx": {
+    "mtime": 1780337994.1713164,
+    "ast_hash": "af8694c6a52ecd22cbe6ea393feb49f2",
+    "semantic_hash": "af8694c6a52ecd22cbe6ea393feb49f2"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\LoanForm.jsx": {
+    "mtime": 1780337994.1713164,
+    "ast_hash": "d599661f24a407ac752824e86bde8a4f",
+    "semantic_hash": "d599661f24a407ac752824e86bde8a4f"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ProtectedRoute.jsx": {
+    "mtime": 1780337994.1723187,
+    "ast_hash": "84ebb55c49b394bb82adf00e31013088",
+    "semantic_hash": "84ebb55c49b394bb82adf00e31013088"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\StatCard.jsx": {
+    "mtime": 1780337994.1723187,
+    "ast_hash": "cc2f31b024ee84fdccb1cea6ac91a795",
+    "semantic_hash": "cc2f31b024ee84fdccb1cea6ac91a795"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\UserNotRegisteredError.jsx": {
+    "mtime": 1780337994.1723187,
+    "ast_hash": "751aa13a962ce42d9cc34ffc22468066",
+    "semantic_hash": "751aa13a962ce42d9cc34ffc22468066"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\inventory\\InventoryDialog.jsx": {
+    "mtime": 1780337994.1733181,
+    "ast_hash": "2c7cf66c0fd54a203f1588a2363358e6",
+    "semantic_hash": "2c7cf66c0fd54a203f1588a2363358e6"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\inventory\\InventoryList.jsx": {
+    "mtime": 1780337994.1733181,
+    "ast_hash": "19dfc940fe566f778582b7b1bb5e383e",
+    "semantic_hash": "19dfc940fe566f778582b7b1bb5e383e"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\inventory\\InventoryStats.jsx": {
+    "mtime": 1780337994.1743186,
+    "ast_hash": "9e489197482caa4a7a6cb8cf47766ab6",
+    "semantic_hash": "9e489197482caa4a7a6cb8cf47766ab6"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\inventory\\PasswordDialog.jsx": {
+    "mtime": 1780337994.1743186,
+    "ast_hash": "3403868a6f3e010cb175ecfd123dff5f",
+    "semantic_hash": "3403868a6f3e010cb175ecfd123dff5f"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\inventory\\PasswordList.jsx": {
+    "mtime": 1780337994.175319,
+    "ast_hash": "2cd0f46db9290ad9a73c2f62149cb31e",
+    "semantic_hash": "2cd0f46db9290ad9a73c2f62149cb31e"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\accordion.jsx": {
+    "mtime": 1780337994.175319,
+    "ast_hash": "415118b06768feb81fcfe52b4e5b7b7d",
+    "semantic_hash": "415118b06768feb81fcfe52b4e5b7b7d"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\alert-dialog.jsx": {
+    "mtime": 1780337994.175319,
+    "ast_hash": "9a4bd38fdadaeea6bebeb13e466b96df",
+    "semantic_hash": "9a4bd38fdadaeea6bebeb13e466b96df"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\alert.jsx": {
+    "mtime": 1780337994.1763163,
+    "ast_hash": "207fa30ee81ff024e0a05301bcf60626",
+    "semantic_hash": "207fa30ee81ff024e0a05301bcf60626"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\aspect-ratio.jsx": {
+    "mtime": 1780337994.1763163,
+    "ast_hash": "114d53f29a18d0e8b5e48f5ff3811e15",
+    "semantic_hash": "114d53f29a18d0e8b5e48f5ff3811e15"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\avatar.jsx": {
+    "mtime": 1780337994.1773174,
+    "ast_hash": "9d8326a1af018848b6d83e6e60cda080",
+    "semantic_hash": "9d8326a1af018848b6d83e6e60cda080"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\badge.jsx": {
+    "mtime": 1780337994.1773174,
+    "ast_hash": "6d218c99805c24961981e4dba98fdf13",
+    "semantic_hash": "6d218c99805c24961981e4dba98fdf13"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\breadcrumb.jsx": {
+    "mtime": 1780337994.1773174,
+    "ast_hash": "2e8f5e6af55fae087a46b31fb77d75c0",
+    "semantic_hash": "2e8f5e6af55fae087a46b31fb77d75c0"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\button.jsx": {
+    "mtime": 1780337994.1783183,
+    "ast_hash": "450beace402baf596cd626e7ca4c52c4",
+    "semantic_hash": "450beace402baf596cd626e7ca4c52c4"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\calendar.jsx": {
+    "mtime": 1780337994.1783183,
+    "ast_hash": "c8cb1d68753b689488a6f157d3d37fb0",
+    "semantic_hash": "c8cb1d68753b689488a6f157d3d37fb0"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\card.jsx": {
+    "mtime": 1780337994.1783183,
+    "ast_hash": "cebc57b73ad5f141f5367b43148ec83e",
+    "semantic_hash": "cebc57b73ad5f141f5367b43148ec83e"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\carousel.jsx": {
+    "mtime": 1780337994.1793182,
+    "ast_hash": "153fe6075e848a12d0e42f712b1695be",
+    "semantic_hash": "153fe6075e848a12d0e42f712b1695be"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\chart.jsx": {
+    "mtime": 1780337994.1793182,
+    "ast_hash": "62c5c658db3ebe5a09ee6c00e05848f8",
+    "semantic_hash": "62c5c658db3ebe5a09ee6c00e05848f8"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\checkbox.jsx": {
+    "mtime": 1780337994.1793182,
+    "ast_hash": "36f395a09cf7e827df6c148739416a80",
+    "semantic_hash": "36f395a09cf7e827df6c148739416a80"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\collapsible.jsx": {
+    "mtime": 1780337994.180318,
+    "ast_hash": "cb66adfc183b69da16a00c9e5ddf1fb2",
+    "semantic_hash": "cb66adfc183b69da16a00c9e5ddf1fb2"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\command.jsx": {
+    "mtime": 1780337994.180318,
+    "ast_hash": "f1dfb05773afa55d2785b91b346d7528",
+    "semantic_hash": "f1dfb05773afa55d2785b91b346d7528"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\context-menu.jsx": {
+    "mtime": 1780337994.180318,
+    "ast_hash": "014cb3ebb957f5499ae12b2484544d4b",
+    "semantic_hash": "014cb3ebb957f5499ae12b2484544d4b"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\dialog.jsx": {
+    "mtime": 1780337994.1813183,
+    "ast_hash": "97455b588e8823af4d941306870ca7f9",
+    "semantic_hash": "97455b588e8823af4d941306870ca7f9"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\drawer.jsx": {
+    "mtime": 1780337994.1813183,
+    "ast_hash": "55e869c32611f9a7977d03a31be02a70",
+    "semantic_hash": "55e869c32611f9a7977d03a31be02a70"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\dropdown-menu.jsx": {
+    "mtime": 1780337994.1813183,
+    "ast_hash": "1c0d0b34a081c3152251822d4ff7d7e2",
+    "semantic_hash": "1c0d0b34a081c3152251822d4ff7d7e2"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\form.jsx": {
+    "mtime": 1780337994.1823182,
+    "ast_hash": "4d8eafb2489a0650780a74aa9edb57ce",
+    "semantic_hash": "4d8eafb2489a0650780a74aa9edb57ce"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\hover-card.jsx": {
+    "mtime": 1780337994.1823182,
+    "ast_hash": "79a654eccb12f89d92303cf54b552ae5",
+    "semantic_hash": "79a654eccb12f89d92303cf54b552ae5"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\input-otp.jsx": {
+    "mtime": 1780337994.1823182,
+    "ast_hash": "48841075b2b67182f2cccfcc20c949a2",
+    "semantic_hash": "48841075b2b67182f2cccfcc20c949a2"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\input.jsx": {
+    "mtime": 1780337994.1823182,
+    "ast_hash": "35b99fc05af87a9a54c63343c1f9b6a9",
+    "semantic_hash": "35b99fc05af87a9a54c63343c1f9b6a9"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\label.jsx": {
+    "mtime": 1780337994.183318,
+    "ast_hash": "cb2728638eb562697631e4ea71e33450",
+    "semantic_hash": "cb2728638eb562697631e4ea71e33450"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\menubar.jsx": {
+    "mtime": 1780337994.183318,
+    "ast_hash": "2a82ccb4506e13bdcc04c134ac0c680c",
+    "semantic_hash": "2a82ccb4506e13bdcc04c134ac0c680c"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\navigation-menu.jsx": {
+    "mtime": 1780337994.183318,
+    "ast_hash": "2f60bd3705afc0eeac8ef39c88a59ce2",
+    "semantic_hash": "2f60bd3705afc0eeac8ef39c88a59ce2"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\pagination.jsx": {
+    "mtime": 1780337994.1843178,
+    "ast_hash": "75fb604ebfe91687867cf5f38a44cce7",
+    "semantic_hash": "75fb604ebfe91687867cf5f38a44cce7"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\popover.jsx": {
+    "mtime": 1780337994.1843178,
+    "ast_hash": "aba6056fee432694ef142ea999b944ef",
+    "semantic_hash": "aba6056fee432694ef142ea999b944ef"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\progress.jsx": {
+    "mtime": 1780337994.1853297,
+    "ast_hash": "22d643a654bb67d98f99a92ace2e34e0",
+    "semantic_hash": "22d643a654bb67d98f99a92ace2e34e0"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\radio-group.jsx": {
+    "mtime": 1780337994.1853297,
+    "ast_hash": "1fb39fa13eff606e2a03004bcb4f1b5e",
+    "semantic_hash": "1fb39fa13eff606e2a03004bcb4f1b5e"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\resizable.jsx": {
+    "mtime": 1780337994.1853297,
+    "ast_hash": "da139d29b0894a0ceeb63e13805dcf7d",
+    "semantic_hash": "da139d29b0894a0ceeb63e13805dcf7d"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\scroll-area.jsx": {
+    "mtime": 1780337994.1863184,
+    "ast_hash": "3a1fc9eb76c5ec28b1f4c2fb0f3ac5ac",
+    "semantic_hash": "3a1fc9eb76c5ec28b1f4c2fb0f3ac5ac"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\select.jsx": {
+    "mtime": 1780337994.1863184,
+    "ast_hash": "e88635312f738d468563c6182c56ebf1",
+    "semantic_hash": "e88635312f738d468563c6182c56ebf1"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\separator.jsx": {
+    "mtime": 1780337994.1863184,
+    "ast_hash": "53ad02ebb72b239bfb1ded455ddec492",
+    "semantic_hash": "53ad02ebb72b239bfb1ded455ddec492"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\sheet.jsx": {
+    "mtime": 1780337994.187318,
+    "ast_hash": "26dcf15d87abbb3a496eba22f2bfffc7",
+    "semantic_hash": "26dcf15d87abbb3a496eba22f2bfffc7"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\sidebar.jsx": {
+    "mtime": 1780337994.187318,
+    "ast_hash": "1b12281cd0b683a523a224a2b3c7a3fa",
+    "semantic_hash": "1b12281cd0b683a523a224a2b3c7a3fa"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\skeleton.jsx": {
+    "mtime": 1780337994.187318,
+    "ast_hash": "a643014bf4d04902f452b9c1949e791e",
+    "semantic_hash": "a643014bf4d04902f452b9c1949e791e"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\slider.jsx": {
+    "mtime": 1780337994.1883183,
+    "ast_hash": "080b174fd379884828befa7ba89701fd",
+    "semantic_hash": "080b174fd379884828befa7ba89701fd"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\sonner.jsx": {
+    "mtime": 1780337994.1883183,
+    "ast_hash": "033d5b58ae6d9cd4c9cbcdc4a5dc7170",
+    "semantic_hash": "033d5b58ae6d9cd4c9cbcdc4a5dc7170"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\switch.jsx": {
+    "mtime": 1780337994.1883183,
+    "ast_hash": "d3280805fe8f47cccbe5b623ca95956b",
+    "semantic_hash": "d3280805fe8f47cccbe5b623ca95956b"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\table.jsx": {
+    "mtime": 1780337994.1893182,
+    "ast_hash": "c62cc8e3aee43f709186522a3097db88",
+    "semantic_hash": "c62cc8e3aee43f709186522a3097db88"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\tabs.jsx": {
+    "mtime": 1780337994.1893182,
+    "ast_hash": "1b3bfe26cd4927db2f8d9059e85bd87a",
+    "semantic_hash": "1b3bfe26cd4927db2f8d9059e85bd87a"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\textarea.jsx": {
+    "mtime": 1780337994.1893182,
+    "ast_hash": "852877fef0530fc6378b2cb5b4bd8030",
+    "semantic_hash": "852877fef0530fc6378b2cb5b4bd8030"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\toast.jsx": {
+    "mtime": 1780337994.190318,
+    "ast_hash": "c59f695928a812ec8f8c09c4492d9bf7",
+    "semantic_hash": "c59f695928a812ec8f8c09c4492d9bf7"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\toaster.jsx": {
+    "mtime": 1780337994.190318,
+    "ast_hash": "40f33735309033cd883efa1f1ce01eb0",
+    "semantic_hash": "40f33735309033cd883efa1f1ce01eb0"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\toggle-group.jsx": {
+    "mtime": 1780337994.190318,
+    "ast_hash": "9aabad436f249f3a599513158631cb6f",
+    "semantic_hash": "9aabad436f249f3a599513158631cb6f"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\toggle.jsx": {
+    "mtime": 1780337994.1913183,
+    "ast_hash": "406eca195f8a55707e72934733aa4b52",
+    "semantic_hash": "406eca195f8a55707e72934733aa4b52"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\tooltip.jsx": {
+    "mtime": 1780337994.1913183,
+    "ast_hash": "7b41bcf0b5297401b960a6cdc25f71c0",
+    "semantic_hash": "7b41bcf0b5297401b960a6cdc25f71c0"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\components\\ui\\use-toast.jsx": {
+    "mtime": 1780337994.1913183,
+    "ast_hash": "f27b3d349f3acd269b4416364451b2f8",
+    "semantic_hash": "f27b3d349f3acd269b4416364451b2f8"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\hooks\\use-mobile.jsx": {
+    "mtime": 1780337994.1923182,
+    "ast_hash": "21cadcc97434bd72c2e17fe9cdadb88a",
+    "semantic_hash": "21cadcc97434bd72c2e17fe9cdadb88a"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\lib\\AuthContext.jsx": {
+    "mtime": 1780337994.1933184,
+    "ast_hash": "ea9628feade8d651490ff36ecbb27e12",
+    "semantic_hash": "ea9628feade8d651490ff36ecbb27e12"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\lib\\PageNotFound.jsx": {
+    "mtime": 1780337994.1933184,
+    "ast_hash": "a58a6d8f40570a53f19126b778277638",
+    "semantic_hash": "a58a6d8f40570a53f19126b778277638"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\lib\\app-params.js": {
+    "mtime": 1780337994.1933184,
+    "ast_hash": "2d1e61fe3ec5a4d13704883e828e2970",
+    "semantic_hash": "2d1e61fe3ec5a4d13704883e828e2970"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\lib\\database-examples.js": {
+    "mtime": 1780337994.1943183,
+    "ast_hash": "a0fcbe6a6f12f918279cf6284b4e4306",
+    "semantic_hash": "a0fcbe6a6f12f918279cf6284b4e4306"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\lib\\database.js": {
+    "mtime": 1780337994.1943183,
+    "ast_hash": "8cd37c844b94eef7069792b3c19ccb86",
+    "semantic_hash": "8cd37c844b94eef7069792b3c19ccb86"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\lib\\db.js": {
+    "mtime": 1780337994.195318,
+    "ast_hash": "755de87b8cb56cc9647d3ebefb9f49b9",
+    "semantic_hash": "755de87b8cb56cc9647d3ebefb9f49b9"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\lib\\query-client.js": {
+    "mtime": 1780337994.195318,
+    "ast_hash": "8da936b9823cef36243e5daf864d6f8c",
+    "semantic_hash": "8da936b9823cef36243e5daf864d6f8c"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\lib\\utils.js": {
+    "mtime": 1780337994.195318,
+    "ast_hash": "ba1dc94da59bf5ff3be3dee0954e944f",
+    "semantic_hash": "ba1dc94da59bf5ff3be3dee0954e944f"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\main.jsx": {
+    "mtime": 1780337994.1963181,
+    "ast_hash": "ba19af2b636eca1bd9f4414652a673df",
+    "semantic_hash": "ba19af2b636eca1bd9f4414652a673df"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\pages\\Dashboard.jsx": {
+    "mtime": 1780337994.1963181,
+    "ast_hash": "702139e0454ae8d6181cbcd1727d03f0",
+    "semantic_hash": "702139e0454ae8d6181cbcd1727d03f0"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\pages\\History.jsx": {
+    "mtime": 1780337994.197318,
+    "ast_hash": "4bf8e4c17f451250bd20f1ada4a53cc4",
+    "semantic_hash": "4bf8e4c17f451250bd20f1ada4a53cc4"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\pages\\Inventory.jsx": {
+    "mtime": 1780337994.197318,
+    "ast_hash": "b02fea4c6df3a31351b92f89dfe9e4c3",
+    "semantic_hash": "b02fea4c6df3a31351b92f89dfe9e4c3"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\pages\\NewLoan.jsx": {
+    "mtime": 1780337994.197318,
+    "ast_hash": "d982876cd5fa9ce38575862415b44327",
+    "semantic_hash": "d982876cd5fa9ce38575862415b44327"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\pages\\ServiceCalls.jsx": {
+    "mtime": 1780337994.198318,
+    "ast_hash": "e5ba97fec27e197a5b43bbd8c64c7f03",
+    "semantic_hash": "e5ba97fec27e197a5b43bbd8c64c7f03"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\pages\\Tasks.jsx": {
+    "mtime": 1780337994.198318,
+    "ast_hash": "90eea705f1be660e31ce2ca20ea8fef1",
+    "semantic_hash": "90eea705f1be660e31ce2ca20ea8fef1"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\src\\utils\\index.ts": {
+    "mtime": 1780337994.199325,
+    "ast_hash": "48d559551bffdbdd87d855fb6bbef609",
+    "semantic_hash": "48d559551bffdbdd87d855fb6bbef609"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\tailwind.config.js": {
+    "mtime": 1780337994.199325,
+    "ast_hash": "12c8bbc717ad9ea272396262be79ce74",
+    "semantic_hash": "12c8bbc717ad9ea272396262be79ce74"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\vite.config.js": {
+    "mtime": 1780337994.199325,
+    "ast_hash": "c040a4dfb572466de112c5ed6fca2615",
+    "semantic_hash": "c040a4dfb572466de112c5ed6fca2615"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\.agents\\skills\\graphify\\SKILL.md": {
+    "mtime": 1780338639.915198,
+    "ast_hash": "960d770f159b5917d87dc28b8a75536a",
+    "semantic_hash": "960d770f159b5917d87dc28b8a75536a"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\AGENTS.md": {
+    "mtime": 1780338639.9182234,
+    "ast_hash": "752aa83aa64361ac32860f882dcff932",
+    "semantic_hash": "752aa83aa64361ac32860f882dcff932"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\DATABASE.md": {
+    "mtime": 1780337994.1503181,
+    "ast_hash": "51b4d1ef9b846ef0f73ff8818beb1a12",
+    "semantic_hash": "51b4d1ef9b846ef0f73ff8818beb1a12"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\README.md": {
+    "mtime": 1780337994.1523163,
+    "ast_hash": "77d76374b3a0ed6d01583be6a085509e",
+    "semantic_hash": "77d76374b3a0ed6d01583be6a085509e"
+  },
+  "C:\\Users\\pedrosousa\\Documents\\GitHub\\JARDIM-COLORADO-\\index.html": {
+    "mtime": 1780337994.1643178,
+    "ast_hash": "9e5b4c0a3b741b43107c48b74bebe610",
+    "semantic_hash": "9e5b4c0a3b741b43107c48b74bebe610"
+  }
+}

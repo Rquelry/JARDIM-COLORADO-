@@ -19,6 +19,8 @@ import {
 } from "@/components/ui/select";
 import { Loader2 } from "lucide-react";
 import { toast } from "sonner";
+import CsvImportButton from "@/components/CsvImportButton";
+import { mapTeachersCsv } from "@/lib/csv-mappers";
 
 export default function AddTeacherDialog({ open, onClose, onAdded }) {
   const [loading, setLoading] = useState(false);
@@ -44,6 +46,15 @@ export default function AddTeacherDialog({ open, onClose, onAdded }) {
         <DialogHeader>
           <DialogTitle>Adicionar Professor</DialogTitle>
         </DialogHeader>
+        <CsvImportButton
+          label="Importar professores"
+          transformRows={mapTeachersCsv}
+          onImport={(records) => TeachersDB.createMany(records)}
+          onImported={(records) => {
+            records.forEach((teacher) => onAdded(teacher));
+            onClose();
+          }}
+        />
         <div className="space-y-4 py-2">
           <div className="space-y-2">
             <Label>Nome *</Label>

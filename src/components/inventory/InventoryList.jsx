@@ -17,6 +17,7 @@ const statusConfig = {
   em_uso: { label: "Em Uso", className: "bg-blue-100 text-blue-700" },
   manutencao: { label: "Manutenção", className: "bg-amber-100 text-amber-700" },
   inativo: { label: "Inativo", className: "bg-gray-100 text-gray-500" },
+  nao_encontrado: { label: "Nao encontrado", className: "bg-red-100 text-red-700" },
 };
 
 const userTypeLabels = {
@@ -58,7 +59,20 @@ export default function InventoryList({ items, onEdit, onRefresh }) {
                 <div className="min-w-0">
                   <p className="font-semibold truncate">{item.name}</p>
                   <p className="text-sm text-muted-foreground">{item.category}{item.brand ? ` — ${item.brand}` : ""}</p>
-                  {item.serial_number && <p className="text-xs text-muted-foreground">Nº {item.serial_number}</p>}
+                  {item.serial_number && (
+                    <p className="text-xs text-muted-foreground">
+                      Serie: {item.serial_number}
+                    </p>
+                  )}
+                  {item.asset_tag && (
+                    <p className="text-xs text-muted-foreground">Patrimonio: {item.asset_tag}</p>
+                  )}
+                  {item.cart && (
+                    <p className="text-xs text-muted-foreground">Carrinho: {item.cart}</p>
+                  )}
+                  {item.location && (
+                    <p className="text-xs text-muted-foreground">Local: {item.location}</p>
+                  )}
                   {item.category === "Cabo de Rede" && item.cable_length_m && (
                     <p className="text-xs text-muted-foreground">{item.cable_length_m}m</p>
                   )}

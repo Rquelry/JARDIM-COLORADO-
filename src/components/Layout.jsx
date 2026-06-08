@@ -1,5 +1,6 @@
 import { Outlet, Link, useLocation } from "react-router-dom";
-import { LayoutDashboard, PlusCircle, History, Monitor, Wrench, Package, ClipboardList } from "lucide-react";
+import { LayoutDashboard, PlusCircle, History, Monitor, Wrench, Package, ClipboardList, LogOut, Laptop } from "lucide-react";
+import { logout } from "@/lib/auth";
 
 const navItems = [
   { path: "/", label: "Painel", icon: LayoutDashboard },
@@ -7,11 +8,17 @@ const navItems = [
   { path: "/historico", label: "Histórico", icon: History },
   { path: "/chamados", label: "Chamados", icon: Wrench },
   { path: "/estoque", label: "Estoque", icon: Package },
+  { path: "/notebooks", label: "Notebooks", icon: Laptop },
   { path: "/tarefas", label: "Tarefas", icon: ClipboardList },
 ];
 
 export default function Layout() {
   const location = useLocation();
+
+  const handleLogout = async () => {
+    await logout();
+    window.location.href = "/login";
+  };
 
   return (
     <div className="min-h-screen bg-background">
@@ -53,6 +60,14 @@ export default function Layout() {
                   </Link>
                 );
               })}
+              <button
+                type="button"
+                onClick={handleLogout}
+                className="flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-accent transition-all duration-200"
+              >
+                <LogOut className="h-4 w-4" />
+                Sair
+              </button>
             </nav>
           </div>
         </div>

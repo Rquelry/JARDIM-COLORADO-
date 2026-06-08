@@ -4,7 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host 0.0.0.0",
+    "dev:local": "vite --host 127.0.0.1",
+    "backend": "node backend/src/server.js",
+    "backend:local": "set BACKEND_HOST=127.0.0.1&& node backend/src/server.js",
     "build": "vite build",
     "lint": "eslint . --quiet",
     "lint:fix": "eslint . --fix",

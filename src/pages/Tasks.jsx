@@ -6,13 +6,23 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Badge } from "@/components/ui/badge";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { CheckCircle2, Circle, Trash2, Plus, CalendarDays, User, ClipboardList } from "lucide-react";
 import { toast } from "sonner";
 import moment from "moment";
 import "moment/locale/pt-br";
+import CsvImportButton from "@/components/CsvImportButton";
+import { mapTasksCsv } from "@/lib/csv-mappers";
 moment.locale("pt-br");
 
 const emptyForm = { title: "", assigned_to: "", due_date: "", notes: "", status: "pendente" };
+
+const peopleOptions = [
+  "MARCOS ANTONIO DIAS DA SILVA",
+  "PEDRO HENRIQUE DE JESUS SOUSA",
+  "RAQUELRY SILVA DA FONSECA",
+  "IAN KAIQUE BRITO FREITAS",
+];
 
 export default function Tasks() {
   const [tasks, setTasks] = useState([]);
@@ -78,9 +88,18 @@ export default function Tasks() {
           </h2>
           <p className="text-muted-foreground text-sm mt-1">{pendentes} pendente{pendentes !== 1 ? "s" : ""} · {atrasadas} atrasada{atrasadas !== 1 ? "s" : ""}</p>
         </div>
-        <Button onClick={() => setOpen(true)} className="gap-2 rounded-xl h-11 shadow-lg shadow-primary/20">
-          <Plus className="h-4 w-4" /> Nova Tarefa
-        </Button>
+        <div className="flex flex-col sm:flex-row gap-2">
+          <CsvImportButton
+            label="Importar tarefas"
+            transformRows={mapTasksCsv}
+            onImport={(records) => TasksDB.createMany(records)}
+            onImported={fetchTasks}
+            className="h-11"
+          />
+          <Button onClick={() => setOpen(true)} className="gap-2 rounded-xl h-11 shadow-lg shadow-primary/20">
+            <Plus className="h-4 w-4" /> Nova Tarefa
+          </Button>
+        </div>
       </div>
 
       {/* Summary */}
@@ -145,6 +164,12 @@ export default function Tasks() {
                       {moment(task.due_date).format("DD/MM/YYYY")}
                       {isAtrasada && " · Atrasada"}
                     </span>
+                    {task.created_date && (
+                      <span className="text-xs text-muted-foreground flex items-center gap-1">
+                        <CalendarDays className="h-3 w-3" />
+                        Criada em {moment(task.created_date).format("DD/MM/YYYY")}
+                      </span>
+                    )}
                   </div>
                   {task.notes && <p className="text-xs text-muted-foreground mt-1 italic">{task.notes}</p>}
                 </div>
@@ -176,7 +201,15 @@ export default function Tasks() {
             <div className="grid grid-cols-2 gap-3">
               <div className="space-y-1">
                 <Label>Responsável</Label>
-                <Input placeholder="Nome da pessoa" value={form.assigned_to} onChange={(e) => set("assigned_to", e.target.value)} className="rounded-xl" />
+                <Select value={form.assigned_to || "nao_informado"} onValueChange={(value) => set("assigned_to", value === "nao_informado" ? "" : value)}>
+                  <SelectTrigger className="rounded-xl"><SelectValue /></SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="nao_informado">Responsavel</SelectItem>
+                    {peopleOptions.map((person) => (
+                      <SelectItem key={person} value={person}>{person}</SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
               </div>
               <div className="space-y-1">
                 <Label>Data Limite *</Label>

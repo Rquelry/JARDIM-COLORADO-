@@ -1,4 +1,4 @@
-/* eslint-disable no-undef, no-unused-vars, no-implicit-any, no-property-does-not-exist */
+/* eslint-disable no-undef, no-unused-vars */
 // @ts-nocheck
 /* eslint-disable-next-line */
 import axios from "axios";

@@ -14,7 +14,7 @@ export default function InventorySnapshot() {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    InventoryDB.list().then(setItems);
+    InventoryDB.list("name", 5000).then(setItems);
   }, []);
 
   return (
